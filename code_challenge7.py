@@ -1,8 +1,13 @@
-odd_sum = 0  # To store the sum of odd numbers
+#COUNTDOWN TIMER SIMULATOR
 
-for i in range(7):
-    number = int(input("Enter a number: "))
-    if number % 2 != 0:  # Check if the number is odd
-        odd_sum += number
+#Ask the user to enter the starting number
+start = int(input(" COUNTDOWN TIMER SIMULATOR Enter the starting number for countdown: "))
 
-print("The sum of all odd numbers is", odd_sum)
+print("Countdown started:")
+
+#Use a for loop to count down from the starting number to 1
+for i in range(start, 0, -1):
+    print(i)
+
+#Print Liftoff! after the countdown
+print("Liftoff!")
