@@ -18,4 +18,4 @@ while isDirty == True:
         print("Washing stops... ")
         break
 
-    print("Number of cycle is", sum)
+print("Number of cycle is", sum)
